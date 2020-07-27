@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultadoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Resultado !!!"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/colorPrimary"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Fahrenheit :"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtResultadoFahrenheit"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Kelvin :"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtResultadoKelvin"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/voltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="VOLTAR"
+        android:layout_marginTop="25dp"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
